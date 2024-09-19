@@ -31,6 +31,7 @@ const overlay = document.querySelector("[data-overlay]");
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
+const modalDate = document.querySelector("[data-modal-date]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -40,6 +41,8 @@ const testimonialsModalFunc = function () {
 
 // add click event to all modal items
 
+let dates = ["28th August 2024", "22nd February 2024"];
+
 for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsItem[i].addEventListener("click", function () {
 
@@ -47,6 +50,8 @@ for (let i = 0; i < testimonialsItem.length; i++) {
         modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
         modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
         modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+
+        modalDate.innerHTML = dates[i];
 
         testimonialsModalFunc();
     });
