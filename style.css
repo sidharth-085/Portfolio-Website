@@ -485,7 +485,7 @@ main{
 }
 
 .about-text p {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 /* service */
@@ -550,7 +550,9 @@ main{
 
 .testimonials { margin-bottom: 30px; }
 
-.testimonials-title { margin-bottom: 20px; }
+.testimonials-title { 
+  margin-bottom: 25px; 
+}
 
 .testimonials-list {
   display: flex;
@@ -1144,6 +1146,10 @@ main{
   background: var(--bg-gradient-jet);
  }
 
+ .article-title {
+  margin-top: 10px;
+ }
+
  /* responsive */
 
  /* larger then 450px seceen */
@@ -1152,6 +1158,10 @@ main{
 
   .clients-items{
     min-width: calc(33.33% - 10px);
+  }
+
+  .article-title {
+    margin-top: 10px;
   }
 
  }
@@ -1186,7 +1196,6 @@ main{
   .article-title:after{
     width: 40px;
     height: 5px;
-
   }
 
   .icon-box{
@@ -1276,7 +1285,7 @@ main{
   }
 
   .about-text{
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
 
   .service-item{
@@ -1298,7 +1307,6 @@ main{
 
   .testimonials-title {
     margin-bottom: 25px;
-
   }
 
   .testimonials-list{
