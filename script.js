@@ -41,7 +41,7 @@ const testimonialsModalFunc = function () {
 
 // add click event to all modal items
 
-let dates = ["28th August 2024", "22nd February 2024"];
+let dates = ["28th August 2024", "22nd February 2024", "20th February 2023"];
 
 for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsItem[i].addEventListener("click", function () {
